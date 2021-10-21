@@ -5,7 +5,10 @@
   body {
     font-family: "Sora", sans-serif;
     background-color: white;
-    background-image: url(background2.png)
+    background-image: url(background2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
   }
   h1 {
     font-family: "Sora", sans-serif;
