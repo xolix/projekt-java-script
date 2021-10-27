@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+    <title>Podstawy - SQL</title>
+</head>
+
+<body>
+    <form class="quiz-box">
+        <h1><a href="sql.html">Quizzsite</a></h1>
+        <div class="answer-box">
+            <h3 class="question">Która instrukcja SQL służy do wyodrębniania danych z bazy danych?</h3>
+            <input type="radio" name="question-1" id="answer-1" class="answer" value="false">
+            <label for="answer-1">OPEN</label>
+            <input type="radio" name="question-1" id="answer-2" class="answer" value="true">
+            <label for="answer-2">SELECT</label>
+            <input type="radio" name="question-1" id="answer-3" class="answer" value="false">
+            <label for="answer-3">GET</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Która instrukcja SQL służy do wstawiania nowych danych do tabeli?</h3>
+            <input type="radio" name="question-2" id="answer-4" class="answer" value="false">
+            <label for="answer-4">ADD NEW</label>
+            <input type="radio" name="question-2" id="answer-5" class="answer" value="true">
+            <label for="answer-5">INSERT INTO</label>
+            <input type="radio" name="question-2" id="answer-6" class="answer" value="false">
+            <label for="answer-6">ADD RECORD</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Jak za pomocą SQL wybrać kolumnę o nazwie „Imię” z tabeli o nazwie „Osoby”?</h3>
+            <input type="radio" name="question-3" id="answer-7" class="answer" value="true">
+            <label for="answer-7">SELECT Imie FROM Osoby</label>
+            <input type="radio" name="question-3" id="answer-8" class="answer" value="false">
+            <label for="answer-8">SELECT Osoby.Imie</label>
+            <input type="radio" name="question-3" id="answer-9" class="answer" value="false">
+            <label for="answer-9">EXTRACT Imie FROM Osoby</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">Które słowo kluczowe SQL służy do sortowania zestawu wyników?</h3>
+            <input type="radio" name="question-4" id="answer-10" class="answer" value="false">
+            <label for="answer-10">ORDER</label>
+            <input type="radio" name="question-4" id="answer-11" class="answer" value="false">
+            <label for="answer-11">SORT BY</label>
+            <input type="radio" name="question-4" id="answer-12" class="answer" value="true">
+            <label for="answer-12">ORDER BY</label>
+        </div>
+
+        <button type="submit">Sprawdź</button>
+    </form>
+
+    <div class="modal">
+        <p></p>
+        <button class="close-modal">X</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

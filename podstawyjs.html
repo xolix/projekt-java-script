@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+    <title>Podstawy - JavaScript</title>
+</head>
+
+<body>
+    <form class="quiz-box">
+        <h1><a href="js.html">Quizzsite</a></h1>
+        <div class="answer-box">
+            <h3 class="question">Gdzie jest prawidłowe miejsce na wstawienie kodu JavaScript?</h3>
+            <input type="radio" name="question-1" id="answer-1" class="answer" value="false">
+            <label for="answer-1">body</label>
+            <input type="radio" name="question-1" id="answer-2" class="answer" value="false">
+            <label for="answer-2">head</label>
+            <input type="radio" name="question-1" id="answer-3" class="answer" value="true">
+            <label for="answer-3">zarówno head i body będą poprawne</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Jak napisać „Hello World” w polu alertu?</h3>
+            <input type="radio" name="question-2" id="answer-4" class="answer" value="false">
+            <label for="answer-4">alertBox("Hello World");</label>
+            <input type="radio" name="question-2" id="answer-5" class="answer" value="false">
+            <label for="answer-5">msg("Hello world");</label>
+            <input type="radio" name="question-2" id="answer-6" class="answer" value="true">
+            <label for="answer-6">alert("Hello world");</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Ktróra z intrukcji IF w JavaScript jest poprawna?</h3>
+            <input type="radio" name="question-3" id="answer-7" class="answer" value="false">
+            <label for="answer-7">if i = 5</label>
+            <input type="radio" name="question-3" id="answer-8" class="answer" value="true">
+            <label for="answer-8">if (i==5)</label>
+            <input type="radio" name="question-3" id="answer-9" class="answer" value="false">
+            <label for="answer-9">if i = 5 then</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">Jaki jest prawidłowy sposób napisania tablicy JavaScript?</h3>
+            <input type="radio" name="question-4" id="answer-10" class="answer" value="true">
+            <label for="answer-10">var kolory = ["czerwony", "zielony", "niebieski"]</label>
+            <input type="radio" name="question-4" id="answer-11" class="answer" value="false">
+            <label for="answer-11">var kolory = ("czerwony", "zielony", "niebieski")</label>
+            <input type="radio" name="question-4" id="answer-12" class="answer" value="false">
+            <label for="answer-12">var kolory = "czerwony", "zielony", "niebieski"</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">Jakie zdarzenie ma miejsce, gdy użytkownik kliknie element HTML?</h3>
+            <input type="radio" name="question-5" id="answer-13" class="answer" value="true">
+            <label for="answer-13">onclick</label>
+            <input type="radio" name="question-5" id="answer-14" class="answer" value="false">
+            <label for="answer-14">onchange</label>
+            <input type="radio" name="question-5" id="answer-15" class="answer" value="false">
+            <label for="answer-15">onmouseclick</label>
+        </div>
+
+        <button type="submit">Sprawdź</button>
+    </form>
+
+    <div class="modal">
+        <p></p>
+        <button class="close-modal">X</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

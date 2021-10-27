@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+    <title>Funkcje - JavaScript</title>
+</head>
+
+<body>
+    <form class="quiz-box">
+        <h1><a href="js.html">Quizzsite</a></h1>
+        <div class="answer-box">
+            <h3 class="question">Jak stworzyć funkcję w JavaScript?</h3>
+            <input type="radio" name="question-1" id="answer-1" class="answer" value="true">
+            <label for="answer-1">function myFunction()</label>
+            <input type="radio" name="question-1" id="answer-2" class="answer" value="false">
+            <label for="answer-2">function:myFunction()</label>
+            <input type="radio" name="question-1" id="answer-3" class="answer" value="false">
+            <label for="answer-3">function = myFunction()</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Jak wywołać funkcję nazwaną "funkcja"?</h3>
+            <input type="radio" name="question-2" id="answer-4" class="answer" value="false">
+            <label for="answer-4">call function funkcja()</label>
+            <input type="radio" name="question-2" id="answer-5" class="answer" value="true">
+            <label for="answer-5">funkcja()</label>
+            <input type="radio" name="question-2" id="answer-6" class="answer" value="false">
+            <label for="answer-6">call funkcja()</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Co się stanie po wywołaniu tej funkcji? function aaa() {
+                document.write("Hello there!");
+            }</h3>
+            <input type="radio" name="question-3" id="answer-7" class="answer" value="true">
+            <label for="answer-7">zostanie wypisany napis "Hello there!" na ekranie</label>
+            <input type="radio" name="question-3" id="answer-8" class="answer" value="false">
+            <label for="answer-8">zostanie wypisany napis "Hello there!" w konsoli</label>
+            <input type="radio" name="question-3" id="answer-9" class="answer" value="false">
+            <label for="answer-9">nic</label>
+        </div>
+
+        <button type="submit">Sprawdź</button>
+    </form>
+
+    <div class="modal">
+        <p></p>
+        <button class="close-modal">X</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

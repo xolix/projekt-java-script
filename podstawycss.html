@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+    <title>Podstawy - CSS</title>
+</head>
+
+<body>
+    <form class="quiz-box">
+        <h1><a href="css.html">Quizzsite</a></h1>
+        <div class="answer-box">
+            <h3 class="question">Jak połączyć HTML z plikiem CSS "style.css"?</h3>
+            <input type="radio" name="question-1" id="answer-1" class="answer" value="true">
+            <label for="answer-1">link rel="stylesheet" type="text/css" href="style.css"</label>
+            <input type="radio" name="question-1" id="answer-2" class="answer" value="false">
+            <label for="answer-2">style src="style.css"</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Która właściwość służy do zmiany koloru tła?</h3>
+            <input type="radio" name="question-2" id="answer-3" class="answer" value="false">
+            <label for="answer-3">color</label>
+            <input type="radio" name="question-2" id="answer-4" class="answer" value="true">
+            <label for="answer-4">background-color</label>
+            <input type="radio" name="question-2" id="answer-5" class="answer" value="false">
+            <label for="answer-5">bgcolor</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Która właściwość CSS służy do zmiany koloru tekstu elementu?</h3>
+            <input type="radio" name="question-3" id="answer-6" class="answer" value="true">
+            <label for="answer-6">color</label>
+            <input type="radio" name="question-3" id="answer-7" class="answer" value="false">
+            <label for="answer-7">text-color</label>
+            <input type="radio" name="question-3" id="answer-8" class="answer" value="false">
+            <label for="answer-8">font-color</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">Która właściwość jest odpowiedzialna za rozmiar tekstu?</h3>
+            <input type="radio" name="question-4" id="answer-9" class="answer" value="false">
+            <label for="answer-9">text-size</label>
+            <input type="radio" name="question-4" id="answer-10" class="answer" value="true">
+            <label for="answer-10">font-size</label>
+            <input type="radio" name="question-4" id="answer-11" class="answer" value="false">
+            <label for="answer-11">text-size</label>
+            <input type="radio" name="question-4" id="answer-12" class="answer" value="false">
+            <label for="answer-12">text-style</label>
+        </div>
+
+        <button type="submit">Sprawdź</button>
+    </form>
+
+    <div class="modal">
+        <p></p>
+        <button class="close-modal">X</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

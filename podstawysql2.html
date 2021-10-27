@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+    <title>Podstawy 2 - SQL</title>
+</head>
+
+<body>
+    <form class="quiz-box">
+        <h1><a href="sql.html">Quizzsite</a></h1>
+        <div class="answer-box">
+            <h3 class="question">Jak za pomocą SQL można zwrócić wszystkie rekordy z tabeli o nazwie „Osoby” posortowane malejąco według „Imie”?</h3>
+            <input type="radio" name="question-1" id="answer-1" class="answer" value="false">
+            <label for="answer-1">SELECT * FROM Osoby SORT BY 'Imie' DESC</label>
+            <input type="radio" name="question-1" id="answer-2" class="answer" value="true">
+            <label for="answer-2">SELECT * FROM Osoby ORDER BY Imie DESC</label>
+            <input type="radio" name="question-1" id="answer-3" class="answer" value="false">
+            <label for="answer-3">SELECT * FROM Osoby SORT 'Imie' DESC</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Która instrukcja SQL służy do tworzenia tabeli bazy danych o nazwie „klienci”?</h3>
+            <input type="radio" name="question-2" id="answer-4" class="answer" value="true">
+            <label for="answer-4">CREATE TABLE klienci</label>
+            <input type="radio" name="question-2" id="answer-5" class="answer" value="false">
+            <label for="answer-5">CREATE DATABASE TABLE klienci</label>
+            <input type="radio" name="question-2" id="answer-6" class="answer" value="false">
+            <label for="answer-6">CREATE DB klienci</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Jak za pomocą SQL można zwrócić liczbę rekordów w tabeli „Osoby”?</h3>
+            <input type="radio" name="question-3" id="answer-7" class="answer" value="true">
+            <label for="answer-7">SELECT COUNT(*) FROM Osoby</label>
+            <input type="radio" name="question-3" id="answer-8" class="answer" value="false">
+            <label for="answer-8">SELECT COLUMNS(*) FROM Osoby</label>
+            <input type="radio" name="question-3" id="answer-9" class="answer" value="false">
+            <label for="answer-9">SELECT LEN(*) FROM Osoby</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">Jak za pomocą SQL można usunąć rekordy, w których „Imie” to „Piotr” w tabeli Osoby?</h3>
+            <input type="radio" name="question-4" id="answer-10" class="answer" value="false">
+            <label for="answer-10">DELETE ROW Imie='Piotr' FROM Osoby</label>
+            <input type="radio" name="question-4" id="answer-11" class="answer" value="false">
+            <label for="answer-11">DELETE Imie='Piotr' FROM Osoby</label>
+            <input type="radio" name="question-4" id="answer-12" class="answer" value="true">
+            <label for="answer-12">DELETE FROM Osoby WHERE Imie = 'Piotr'</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">Który operator służy do wybierania wartości z zakresu?</h3>
+            <input type="radio" name="question-5" id="answer-13" class="answer" value="false">
+            <label for="answer-13">WITHIN</label>
+            <input type="radio" name="question-5" id="answer-14" class="answer" value="false">
+            <label for="answer-14">RANGE</label>
+            <input type="radio" name="question-5" id="answer-15" class="answer" value="true">
+            <label for="answer-15">BETWEEN</label>
+        </div>
+
+        <button type="submit">Sprawdź</button>
+    </form>
+
+    <div class="modal">
+        <p></p>
+        <button class="close-modal">X</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

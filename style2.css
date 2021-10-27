@@ -1,11 +1,15 @@
-#container {
-  margin: 0;
-  padding: 0;
+* {
+  box-sizing: border-box;
 }
+#container {
+  margin: 0 auto;
+ 
+}
+
 body {
   font-family: "Sora", sans-serif;
-  background-color: white;
-  background-image: url(background2.png);
+
+  background-image: url(background2.jpg);
 }
 h1 {
   font-family: "Sora", sans-serif;
@@ -76,7 +80,7 @@ b {
   line-height: 200px;
   text-align: center;
   position: relative;
-  background-color: #fffdd0;
+  background-color: white;
   margin: 10px 5px 0px 0px;
   color: black;
   font-size: 40px;
@@ -85,5 +89,5 @@ b {
 }
 
 .aaa ul li:hover {
-  background-color: white;
+  background-color: #00ff86;
 }

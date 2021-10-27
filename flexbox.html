@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+    <title>Flexbox - CSS</title>
+</head>
+
+<body>
+    <form class="quiz-box">
+        <h1><a href="css.html">Quizzsite</a></h1>
+        <div class="answer-box">
+            <h3 class="question">Jakiej właściwości CSS używasz do korzystania z flexbox?</h3>
+            <input type="radio" name="question-1" id="answer-1" class="answer" value="false">
+            <label for="answer-1">position</label>
+            <input type="radio" name="question-1" id="answer-2" class="answer" value="false">
+            <label for="answer-2">content</label>
+            <input type="radio" name="question-1" id="answer-3" class="answer" value="true">
+            <label for="answer-3">display</label>
+            <input type="radio" name="question-1" id="answer-4" class="answer" value="false">
+            <label for="answer-4">box-sizing</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Która właściwość flexbox wyrównuje elementy w poziomie?</h3>
+            <input type="radio" name="question-2" id="answer-5" class="answer" value="true">
+            <label for="answer-5">justify-content</label>
+            <input type="radio" name="question-2" id="answer-6" class="answer" value="false">
+            <label for="answer-6">align-items</label>
+            <input type="radio" name="question-2" id="answer-7" class="answer" value="false">
+            <label for="answer-7">flex-direction</label>
+        </div>
+
+        <div class="answer-box">
+            <h3 class="question">Która właściwość flexbox wyrównuje elementy w pionie?</h3>
+            <input type="radio" name="question-3" id="answer-8" class="answer" value="false">
+            <label for="answer-8">align-content</label>
+            <input type="radio" name="question-3" id="answer-9" class="answer" value="false">
+            <label for="answer-9">flex-direction</label>
+            <input type="radio" name="question-3" id="answer-10" class="answer" value="true">
+            <label for="answer-10">align-items</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">Która wartość nie jest prawidłową wartością do użycia w przypadku „flex-wrap”?</h3>
+            <input type="radio" name="question-4" id="answer-11" class="answer" value="false">
+            <label for="answer-11">wrap</label>
+            <input type="radio" name="question-4" id="answer-12" class="answer" value="false">
+            <label for="answer-12">nowrap</label>
+            <input type="radio" name="question-4" id="answer-13" class="answer" value="true">
+            <label for="answer-13">reverse-wrap</label>
+            <input type="radio" name="question-4" id="answer-14" class="answer" value="false">
+            <label for="answer-14">wrap-reverse</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">Jak wyrównać wszystkie elementy pionowo do dna kontenera flexbox?</h3>
+            <input type="radio" name="question-5" id="answer-15" class="answer" value="false">
+            <label for="answer-15">center</label>
+            <input type="radio" name="question-5" id="answer-16" class="answer" value="true">
+            <label for="answer-16">flex-end</label>
+            <input type="radio" name="question-5" id="answer-17" class="answer" value="false">
+            <label for="answer-17">space-around</label>
+            <input type="radio" name="question-5" id="answer-18" class="answer" value="false">
+            <label for="answer-18">space-between</label>
+        </div>
+
+        <button type="submit">Sprawdź</button>
+    </form>
+
+    <div class="modal">
+        <p></p>
+        <button class="close-modal">X</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
